@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.infoBox{
+    margin-top: 1rem;
+    width: 45%;
+    direction: rtl;
+
+}
+
+.infoBox p{
+    /*display: flex;*/
+    color: #DAA520;
+    /*color: #666666;*/
+    word-spacing: 7px;
+}
+.infoBox span{
+
+    color: #666666;
+    word-spacing: 7px;
+}
+.infoBox i{
+    margin-top: 1rem;
+    display: flex;
+    word-spacing: 7px;
+}
+
+
+.infoBox h1{
+    margin-top: 3rem;
+   color:  #060638 ;
+    width: 100%;
+
+}
+
+.infoBox h2{
+    margin-top: 3rem;
+    color: #DAA520;
+}
+.infoBox hr{
+    width: 50%;
+}
+
+.orderBox{
+    margin-top: 2rem;
+    width: 70%;
+
+}
+.tozih{
+
+    margin-top: 2rem;
+}
+
+
+.offBox{
+    margin-top: 1rem;
+
+}
+
+.offBox del{
+
+    color: #706f6f;
+}
+
+.secendPrice{
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+}
+.price{
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+}
+.price i{
+    margin: 20px 6px;
+    color: #DAA520;
+}
+
+.offnum {
+    display: flex;
+    flex-direction: row;
+
+}
+.offnum div{
+    margin: 0;
+    width: 8rem;
+    background-color: #fa4949;
+    border: red solid 2px;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.of{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.imageBox{
+    width: 50%;
+    direction: rtl;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.imgHome{
+    width: 100%;
+}
+.imgLi{
+    margin: 5rem 2rem;
+}
+.imgLi ul{
+    list-style: none;
+
+}
+
+.imgLi li{
+    margin: 1rem 0;
+    width: 5rem;
+    height: 5rem;
+    box-shadow: 0px 0px 5px 1px #000000;
+}
+
+

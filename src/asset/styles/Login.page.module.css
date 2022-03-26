@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Vazir-Bold';
+    src: url(../fonts/vazir/Vazir-Bold.woff);
+
+}
+*{
+    font-family: Vazir-Bold;
+}
+
+.logoPic{
+    width: 170px;
+    height: 110px;
+}
+
+
+
+.container{
+    box-shadow: 0px 0px 20px 10px rgba(160,112,66,0.71);
+    background-color: #fcfcfc;
+    margin-top: 7rem;
+}

@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.but{
+    font-size: 20px;
+    font-weight: bold;
+    width: 10%;
+    border: #060638 solid 1px;
+    border-radius: 5px;
+    background-color:white;
+    color:  #060638;
+
+}
+
+.but:hover{
+    background-color:#060638;
+    color:  white;
+
+}
+
+.inpu{
+    width: 73%;
+    border: #a07042 solid 1px;
+    border-radius: 5px;
+    padding: .5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.fristBox{
+    width: 100%;
+    padding: .3rem;
+    background-color:#060638;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}

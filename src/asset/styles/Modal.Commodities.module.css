@@ -1,0 +1,39 @@
+.modalContaner{
+    /*background-color: #c5c4c4;*/
+    direction: rtl;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
+    height: auto;
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 0;
+}
+.header h5{
+    margin-top: 0;
+}
+.main{
+    height: auto;
+}
+.uploadInpu{
+    color: #9600F0;
+    direction: ltr;
+}
+
+.rowInpu{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.rowInputs{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+}

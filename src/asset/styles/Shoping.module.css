@@ -1,0 +1,30 @@
+.hed{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem 10rem;
+    align-items: center;
+    direction: rtl;
+
+}
+.line{
+    border: 1px dashed #706f6f;
+    width: 10rem;
+    height: 0;
+
+}
+.minBoxA{
+    display: flex;
+    align-items: center;
+    color: #a07042;
+}
+.minBox{
+    display: flex;
+    align-items: center;
+    color: #706f6f;
+
+}
+.contain{
+    align-items: center;
+}

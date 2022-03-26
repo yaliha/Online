@@ -1,0 +1,291 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    outline: none;
+}
+img{
+    width: 900px;
+}
+main{
+    min-height:600px ;
+    width: 75%;
+    background-color: #e1e1e1;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+.container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+    border: none;
+    border-radius: 7px;
+    
+}
+i{
+    width: 100px;
+    height: 50px;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: transparent; */
+    padding: 0 5px;
+}
+.lHead{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: aquamarine; */
+    width: 300px;
+    margin-left: 270px;
+}
+.clock{
+    position: relative;
+    top:17;
+    left: 10;
+}
+
+.rHead{
+    border-bottom: solid #da517f ;
+}
+.rHead h2{
+    color: #da517f;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    /* background-color: aquamarine; */
+    padding: 10px;
+}
+.cartNumber{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end ;
+    align-items: center;
+}
+.cnInput{
+    /* background-color: aqua; */
+    border: solid 2px #e1e1e1;
+    border-radius: 7px;
+    height: 53px;
+    position: relative;
+    right: 110;
+}
+.cnInput i{
+    font-size: 35px;
+    position: relative;
+    top: 10;
+}
+.cnInput input{
+    border: none;
+    width: 280px;
+    height: 50px;
+    outline: none;
+   
+}
+.cnInput input::placeholder{
+    text-align: center;
+}
+
+.cNumberTitle{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+.cNumberTitle p{
+    color: darkgray;
+    font-size: smaller;
+    margin-top:-15px;
+}
+.CVV2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end ;
+    align-items: center;
+}
+.gridbox{
+    display: flex;
+    justify-content: center;
+    padding: 7px;
+    background-color: rgb(222, 232, 253);
+    width: 30px;
+    height: 30px;
+    border-radius: 7px;
+    position: relative;
+    left: 70;
+}
+.gridbox i{
+    font-size: 27px;
+}
+
+.cvvInpu{
+    border: solid 2px #e1e1e1;
+    border-radius: 7px;
+    position: relative;
+    right: 85px;
+
+}
+.cvvInpu input{
+    width: 385px;
+    height: 50px;
+    border: none;
+}
+.cvvInpu input::placeholder{
+    text-align: center;
+}
+.date{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end ;
+    align-items: center;
+}
+.dateInpu{
+    position: relative;
+    right: 150;
+}
+.dateInpu input{
+    width: 60px;
+    height: 50px;
+    border: solid 2px #e1e1e1;
+    border-radius: 7px;
+}
+
+.securityCode{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    align-items: center;
+}
+.captcha{
+    position: relative;
+    right: -200;
+}
+.captcha img{
+    width: 190px;
+}
+.codeInpu{
+    border: solid 2px #e1e1e1;
+    border-radius: 7px;
+    position: relative;
+    right: -125;
+}
+.codeInpu input{
+    width: 185px;
+    height: 50px;
+    border: none;
+}
+.reload{
+    display: flex;
+    justify-content: center;
+    padding: 7px;
+    background-color: rgb(222, 232, 253);
+    width: 30px;
+    height: 30px;
+    border-radius: 7px;
+    text-align: center;
+    position: relative;
+    left: 68;
+}
+.reload i{
+    font-size: 26px;
+}
+
+.seccondPassword{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    align-items: center;
+    right: 0;
+}
+
+.passInput{
+    border: solid 2px #e1e1e1;
+    border-radius: 7px;
+    position: relative;
+    right: -150;
+}
+.passInput input{
+    width: 185px;
+    height: 50px;
+    border: none;
+}
+
+
+.reqPass{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px #e1e1e1;
+    border-radius: 7px;
+    /* padding: 0px; */
+    cursor: pointer;
+    position: relative;
+    padding: .5rem 3rem .5rem 0;
+    right: -251;
+}
+.reqPass i{
+    font-size: 24px;
+    position: relative;
+    top: 12;
+    left: 17;
+}
+.reqPass a{
+    text-decoration: none;
+    position: relative;
+    left: 27;
+}
+.mail{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end ;
+    align-items: center;
+}
+
+.mailInpu{
+    border: solid 2px #e1e1e1;
+    border-radius: 7px;
+    position: relative;
+    right: 89;
+
+}
+.mailInpu input{
+    width: 394px;
+    height: 50px;
+    border: none;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.succes{
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(0, 218, 170);
+    color: white;
+    font-size: 21px;
+}
+.faild{
+    width: 277px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(255, 201, 85);
+    color: white;
+    margin-right: 10px;
+    font-size: 21px;
+}

@@ -1,0 +1,17 @@
+.contain{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contain div{
+    margin-top:1rem ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    direction: rtl;
+    width: 40%;
+}

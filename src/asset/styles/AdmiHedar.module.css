@@ -1,0 +1,46 @@
+.hedearBox{
+    background-color: #060638;
+    padding: 0 0;
+}
+
+.hedearContainer{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    direction: rtl;
+    margin: 0 3rem;
+    color: #e0d9d3;
+
+
+}
+.hedearContainer ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+
+
+}
+.hedearContainer li{
+    padding: 0.6rem  .5rem;
+    display:inline;
+
+}
+.hedearContainer a{
+    margin-top:  .8rem;
+    text-decoration: none;
+    color: #e0d9d3;
+
+}
+.active{
+    color: #a07042 !important;
+}
+.line{
+    width: 3px;
+    height: 1.5rem;
+    background-color: #a07042;
+}
+.hedearContainer h1{
+    margin-top: .5rem;
+
+}

@@ -1,0 +1,31 @@
+.contain{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    direction: rtl;
+
+}
+.hed{
+    width: 90%;
+    direction: rtl;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    color: #3232e1;
+
+    margin: 1rem 4.2rem 1rem 0;
+
+}
+.roww{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    /*direction: rtl;*/
+    align-items: center;
+
+}
+
+

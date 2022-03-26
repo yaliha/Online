@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.basket{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    direction: rtl;
+}
+.botn a{
+    color:white;
+    text-decoration: none;
+}
+
+.hed{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem 10rem;
+    align-items: center;
+    direction: rtl;
+
+}
+.line{
+    border: 1px dashed #706f6f;
+    width: 10rem;
+    height: 0;
+
+}
+.minBoxA a{
+
+    display: flex !important;
+    align-items: center !important;
+    color: #a07042 !important;
+}
+.minBoxA {
+
+    display: flex !important;
+    align-items: center !important;
+    color: #a07042 !important;
+}
+.minBox{
+    display: flex !important;
+    align-items: center !important;
+    color: #706f6f !important;
+
+}
+.minBox a{
+    display: flex !important;
+    align-items: center !important;
+    color: #706f6f !important;
+
+}
+
+.table{
+    width: 84%;
+}
+
+.cost{
+    width: 84%;
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+
+}
+
+.emptyBasket{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+.tooltip {
+    animation-name: example;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    position: relative;
+    display: inline-block;
+
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 180px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    top: 12rem;
+    right: 1rem;
+    position: absolute;
+    z-index: 1;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+@keyframes example {
+    0%   { top:0px;}
+    50%  { top:200px;}
+    100% { top:0px;}
+}
+
+
+
+

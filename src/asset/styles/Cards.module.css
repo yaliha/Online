@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+    background-color: #f6f5f5;
+    box-shadow: 0px 0px 15px 4px #000000;
+    maxWidth: 20%;
+    minWidth:20%;
+    margin: 0.5;
+    objectFit:cover;
+    height:20rem;
+
+
+}
+.containn{
+    margin: 10px 10px;
+}
+
+
+.price{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    direction: rtl;
+
+
+
+}
+.price i {
+    margin-right: 5px;
+    color: #666666;
+    font-weight: 200;
+    font-size: 14px;
+
+}
+
+.but{
+    /*width: 5rem;*/
+    height: 2rem;
+    padding: 5px 10px;
+    border-radius: 16px;
+    color: #060638;
+    background-color: white;
+    border: #a07042 solid 1px;
+}
+
+.but:hover{
+    color: white;
+    background-color: #060638;
+
+}
+.footar{
+    width: 100%;
+    height: 2rem;
+    padding-right: 10px;
+    background-color: red;
+    color: white;
+}
+
+.img{
+    /*background-attachment: fixed;*/
+    /*background-size: 100%;*/
+    /*height: 170px;*/
+    max-height: 160px;
+    position: relative;
+
+}
+.tag {
+   padding: 0.2rem 1rem 0.2rem .2rem;
+    position: absolute;
+    background-color: #DAA520;
+    color: white;
+    left: 0;
+    top: 1rem;
+    border-radius: 0 16px 16px 0;
+}
+.offBox del{
+    color: #666666;
+    font-weight: lighter;
+    font-size: 13px;
+    padding-top: 0;
+
+
+}
+.offBox{
+    /*padding-top: 0;*/
+    /*margin-top: -10px;*/
+    margin-bottom:-1rem ;
+}

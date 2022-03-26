@@ -1,0 +1,12 @@
+.contaner{
+    /*background-color: #fd4c4c;*/
+    direction: rtl;
+    margin: 2rem;
+    height: 73vh;
+}
+.Topcontaner{
+    margin: 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}

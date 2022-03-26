@@ -1,0 +1,9 @@
+.App{
+  background-color: #363535;
+  font-family: Vazir-Bold, Roboto, Arial;
+}
+main{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

@@ -1,0 +1,66 @@
+.contain{
+
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: center;
+    align-items: center;
+    direction: rtl;
+    width: auto;
+    padding: 0.3rem 1rem;
+    margin: 3rem 1rem;
+    border-radius: 9px;
+    /*background-color: #4B4B4B;*/
+    background-image: url("../images/shot (267).png");
+    background-repeat: repeat;
+
+}
+.hed{
+    min-width: 12rem;
+   /*height: 20rem;*/
+    margin-top: 0.3rem ;
+    border-radius: 5px ;
+    background-color: transparent;
+    direction: rtl;
+    display: flex;
+    flex-direction:row;
+    align-content: center;
+
+    justify-content: center;
+    /*margin-right: 3rem;*/
+    /*align-items:  first;*/
+
+}
+.hed a{
+    margin-top: 50%;
+    color: white;
+    height: 1rem;
+    text-decoration: none;
+}
+h1{
+  padding: 0;
+}
+.hed h3{
+
+    color: blue;
+
+}
+.roww{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    /*flex-wrap: wrap;*/
+    /*justify-content: center;*/
+    /*direction: rtl;*/
+    /*align-items: center;*/
+    overflow-x: scroll;
+    cursor: default;
+    /*scroll-behavior: unset;*/
+}
+.roww::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+
+
+.margin{
+    margin: 10 110px;
+}

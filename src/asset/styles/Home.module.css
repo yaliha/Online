@@ -1,0 +1,18 @@
+.line{
+    font-size: large;
+    font-weight: 900;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 3rem;
+
+
+
+}
+.botm{
+    justify-content: center;
+    display: flex;
+    width: 40% ;
+    border-bottom: 5px solid #a07042;
+    padding: .5rem 2rem;
+    color: #060638;
+}
